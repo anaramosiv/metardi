@@ -1,0 +1,21 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+/* ************** NAVBAR STYLES************* */
+button{
+  background-color: #FA5D5D;
+
+}
+#navBrand{
+    background-color: #CA1662;
+    padding: 0 5%;
+}
+
+#navElements{
+  background-color: rgba(202, 22, 98, 0.10);
+  padding: 0 5%;
+}
