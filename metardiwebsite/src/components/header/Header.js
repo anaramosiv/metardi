@@ -1,9 +1,9 @@
 import React from 'react';
 import Container from 'react-bootstrap/Container';
 import Carousel from 'react-bootstrap/Carousel';
-import header1 from '../../image/header1.png'
-import header2 from '../../image/header2.png'
-import header3 from '../../image/header3.png'
+import header1 from 'image/header1.png'
+import header2 from 'image/header2.png'
+import header3 from 'image/header3.png'
 
 
 function Header() {
