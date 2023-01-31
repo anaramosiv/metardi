@@ -16,11 +16,14 @@ const Footer = () => {
                 
                 <Col>
                     <img 
-                        src={whatsapp}/>
+                        src={whatsapp}
+                        alt="Whatsapp logo"/>
                     <img 
-                        src={instagram}/>
+                        src={instagram}
+                        alt="Instagram logo"/>
                     <img 
-                        src={facebook}/>
+                        src={facebook}
+                        alt="Facebook logo"/>
                 </Col>
                
             </Row>

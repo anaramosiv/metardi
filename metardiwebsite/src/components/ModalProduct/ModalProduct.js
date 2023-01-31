@@ -7,6 +7,9 @@ import ImgGrande from './ImgGrande';
 import ProductText from './ProductText';
 import Thumbs from './Thumbs'
 import DataProductsList from 'components/data/DataProductsList'
+import Aplicaciones from './Aplicaciones';
+import Includes from './Includes';
+import Sizes from './Sizes';
 
 
 function ModalProducts(props) {
@@ -36,9 +39,9 @@ function ModalProducts(props) {
                     </Col>
                 </Row>
                 <Row>
-                    <Col>Aplicaciones</Col>
-                    <Col>Que incluye</Col>
-                    <Col>Tamaños</Col>
+                    <Col><Aplicaciones indice={props.id}/> </Col>
+                    <Col><Includes indice={props.id}/></Col>
+                    <Col><Sizes indice={props.id}/></Col>
                 </Row>
             </div>
       </Modal.Body>

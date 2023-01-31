@@ -28,6 +28,9 @@ button{
 #CardsProduct{
   padding-top: 5%;
  }
+ #noBullet{
+  list-style: none;
+ }
 
 /********* ABOUT STYLES*********** */
 
