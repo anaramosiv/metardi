@@ -3,6 +3,9 @@
   padding: 0;
   box-sizing: border-box;
 }
+body{
+  font-size: 16px;
+}
 
 
 /* ************** NAVBAR STYLES************* */
@@ -24,4 +27,42 @@ button{
 
 #CardsProduct{
   padding-top: 5%;
+ }
+
+/********* ABOUT STYLES*********** */
+
+.about {
+  padding: 3rem 2rem 0 2rem;
 }
+
+
+ /******* MULTI SLIDE STYLES *********/
+.multiSlide h3{
+text-align: center;
+padding: 2rem;
+}
+.multiSlide{
+  padding-bottom: 3rem;
+}
+
+/******* FOOTER STYLES *********/
+footer{
+  color: antiquewhite;
+  background-color: rgba(0, 0, 0, 0.8);
+  text-align: center;
+}
+#footerlogos img{
+padding: 1rem;
+}
+
+
+/* /////////////// SCREEEN S-M VERSION/////////////////// */
+
+@media(max-width: 768px) { 
+  body{
+    font-size: 12px;
+  }
+  .hideOnMobile{
+    display: none;
+  }
+ } 

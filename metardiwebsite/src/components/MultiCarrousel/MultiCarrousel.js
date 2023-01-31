@@ -2,6 +2,7 @@ import React from 'react'
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import CarrouselData from 'components/data/CarrouselData';
+import { Container } from 'react-bootstrap';
 
 const responsive = {
 
@@ -30,7 +31,11 @@ const responsive = {
 const MultiCarrousel = () => {
     
   return (
-    <Carousel responsive={responsive}  infinite={true}>
+    <section className='multiSlide'>
+      <h3> Nuestros Trabajos</h3>
+      <Container>
+      
+          <Carousel responsive={responsive}  infinite={true}>
     
         {CarrouselData.map((imgSlide)=>{
             return(
@@ -42,9 +47,11 @@ const MultiCarrousel = () => {
             )
         })}
 
-    
-   
+       
   </Carousel>
+  </Container>
+  </section>
+
   )
 }
 

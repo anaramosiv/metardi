@@ -7,12 +7,12 @@ import { Container, Row, Col } from 'react-bootstrap';
 const CardsProduct = () =>  {
   return (
 
-    <Container fluid id='CardsProduct'>
+    <Container id='CardsProduct'>
         <Row>
 
       {ProdTittle.map((productos) =>{
           return (
-            
+                        
             <Col>
             <Card style={{ width: '18rem' }}>
             <Card.Img variant="top" src={productos.img}/>
@@ -28,7 +28,7 @@ const CardsProduct = () =>  {
         }
         )}
         </Row>
-        </Container>
+      </Container>
   );
 }
 
