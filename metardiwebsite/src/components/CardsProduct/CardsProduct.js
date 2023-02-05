@@ -12,12 +12,13 @@ const CardsProduct = () =>  {
 
       {ProdTittle.map((productos) =>{
           return (
+            
                         
-            <Col>
-            <Card style={{ width: '18rem' }}>
+            <Col sm={12} lg={4}>
+            <Card>
             <Card.Img variant="top" src={productos.img}/>
-            <Card.Body>
-              <Card.Title>{productos.tittle}</Card.Title>
+            <Card.Body id='cardsD'>
+              <Card.Title className='toUpper'>{productos.tittle}</Card.Title>
             
               <VerMas id={productos.id}/>
             </Card.Body>

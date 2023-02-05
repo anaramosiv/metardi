@@ -10,6 +10,7 @@ import DataProductsList from 'components/data/DataProductsList'
 import Aplicaciones from './Aplicaciones';
 import Includes from './Includes';
 import Sizes from './Sizes';
+import Cotizar from 'components/Buttons/Cotizar';
 
 
 function ModalProducts(props) {
@@ -25,23 +26,22 @@ function ModalProducts(props) {
       centered
     >
       <Modal.Header closeButton>
-        <Modal.Title id="contained-modal-title-vcenter">
-          Modal heading {props.id}
-        </Modal.Title>
-      </Modal.Header>
+      
+       </Modal.Header>
       <Modal.Body>
             <div>
-                <Row>
-                    <Col><Thumbs indice={props.id} primaryImage ={primaryImage} setPrimaryImage ={setPrimaryImage}/></Col>
-                    <Col><ImgGrande indice = {props.id} primaryImage ={primaryImage} setPrimaryImage ={setPrimaryImage}/></Col>
-                    <Col>
-                    <ProductText indice={props.id}/> 
+                <Row className='bgGr'  id='prods'>
+                    <Col md={2} lg={1}><Thumbs indice={props.id} primaryImage ={primaryImage} setPrimaryImage ={setPrimaryImage}/></Col>
+                    <Col md={4} lg={5}><ImgGrande indice = {props.id} primaryImage ={primaryImage} setPrimaryImage ={setPrimaryImage}/></Col>
+                    <Col md={12} lg={6}>
+                    <ProductText  indice={props.id}/> 
+                    <Cotizar/>
                     </Col>
                 </Row>
-                <Row>
-                    <Col><Aplicaciones indice={props.id}/> </Col>
-                    <Col><Includes indice={props.id}/></Col>
-                    <Col><Sizes indice={props.id}/></Col>
+                <Row id='details'>
+                    <Col md={12} lg={4}><Aplicaciones indice={props.id}/> </Col>
+                    <Col md={12} lg={4}><Includes indice={props.id}/></Col>
+                    <Col md={12} lg={4}><Sizes indice={props.id}/></Col>
                 </Row>
             </div>
       </Modal.Body>

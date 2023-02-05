@@ -7,28 +7,28 @@ import about2 from 'image/about2.png'
 
 const Quienes = () => {
   return (
-    <section className='about'>
-    <Container>
+    <section >
+    <Container className='about'>
         <Row>
-            <Col>
+            <Col sm={12} md={6}>
                 <img
                 src={about1}
                 alt = '...'/>
             </Col>
-            <Col>
+            <Col sm={12} md={6}>
                 <h3>¿Quiénes Somos?</h3>   
                 <p>Somos fabricantes especializados en productos publicitarios textiles BANNERS FLY, BANDERAS y TOTEMS, con más de 7 años de experiencia.
                 Comercializamos de manera minorista y mayorista.</p>
             </Col>
         </Row>
         <Row>
-            <Col>
+            <Col sm={12} md={6}>
             <p className = 'puntitos'>............................................................................</p>
             
             </Col>
         </Row>
         <Row>
-            <Col>
+            <Col sm={12} md={6}>
                 <h3>¿Qué hacemos?</h3>   
                 <p>Trabajamos en productos publicitarios textiles como recursos para el crecimiento de una marca y su posicionamiento. Aportando nuestro conocimiento y siendo conscientes de la relevancia que implica satisfacer las necesidades y expectativas de nuestros clientes.</p>
             </Col>

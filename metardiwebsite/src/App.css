@@ -6,30 +6,88 @@
 body{
   font-size: 16px;
 }
-
+.toUpper{
+  text-transform: uppercase;
+}
 
 /* ************** NAVBAR STYLES************* */
-button{
+
+#bCotizar{
+  border: 0px inset transparent;
+  border-radius: 50px;
   background-color: #FA5D5D;
+  padding:  0 1rem;
+  margin-top: 0.5rem;
+ 
 
 }
 #navBrand{
-    background-color: #CA1662;
-    padding: 0 5%;
+  padding-left:  4rem;
+  
+  
 }
+.bgBrand{
+  background-color: #CA1662;
+
+}
+
 
 #navElements{
-  background-color: rgba(202, 22, 98, 0.10);
-  padding: 0 5%;
+  background-color: rgba(255, 255, 255, 0.8);
+  /* background-color: green; */  
+}
+.metardi{
+  padding-right: 10rem;
 }
 
-/* **************** PRODUCTS STYLES ***************** */
+.delimit{
+  border: 2px solid red; 
 
+}
+.test{
+  background-color: #CA1662;
+}
+#bloque{
+  display: block;
+  overflow: hidden;
+}
+#navFlex{
+  display: flex;
+  justify-content: space-around;
+}
+
+
+
+.carousel-inner{
+  margin: 0 auto;
+}
+/* **************** PRODUCTS STYLES ***************** */
+#moreButton{
+  background-color: #CA1662;
+  border: 1px solid transparent;
+
+}
+#cardsD{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
 #CardsProduct{
   padding-top: 5%;
  }
  #noBullet{
   list-style: none;
+ }
+ .bgGr{
+  background-color: #F9F9F9;
+ }
+ #prods{
+  padding-bottom: 2rem;
+ }
+ #details{
+  padding-top: 1.5rem;
  }
 
 /********* ABOUT STYLES*********** */
@@ -68,4 +126,14 @@ padding: 1rem;
   .hideOnMobile{
     display: none;
   }
+  #bloque{
+    display: inline-block;
+  
+  }
+  #navBrand{
+    padding-left: 1rem;
+    
+  }
+
+
  } 

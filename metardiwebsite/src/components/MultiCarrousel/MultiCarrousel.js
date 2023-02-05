@@ -31,7 +31,7 @@ const responsive = {
 const MultiCarrousel = () => {
     
   return (
-    <section className='multiSlide'>
+    <section id='multiSlide'>
       <h3> Nuestros Trabajos</h3>
       <Container>
       

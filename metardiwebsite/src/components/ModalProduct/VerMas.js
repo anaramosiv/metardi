@@ -7,7 +7,7 @@ const VerMas = ({id}) => {
     
   return (
     <>
-      <Button variant="primary" onClick={() => setModalShow(true)}>
+      <Button id="moreButton" variant="primary" onClick={() => setModalShow(true)}>
         Ver más
       </Button>
 

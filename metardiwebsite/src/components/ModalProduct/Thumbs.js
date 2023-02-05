@@ -5,7 +5,7 @@ const Thumbs = ({indice, primaryImage, setPrimaryImage}) => {
     const {id, tittle, alternativeText, description, thumbnails, applicationsInfo, moreInfo, sizeInfo} = DataProductsList[indice-1]
 
   return (
-    <div>
+    <div className= 'd-flex flex-lg-column justify-content-sm-center'>
         {thumbnails.map((miniatura)=>{
             return(
                 <>
@@ -14,7 +14,8 @@ const Thumbs = ({indice, primaryImage, setPrimaryImage}) => {
                 onClick={()=>{setPrimaryImage(miniatura)}}
                 src={miniatura}
                 alt="..."
-                width= {50}                
+                width= {60}  
+                className=' p-sm-2'              
                 />
                  {console.log(miniatura)}
                 

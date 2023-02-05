@@ -10,7 +10,7 @@ const Includes = ({indice}) => {
       
         {moreInfo.map((includesText)=>{
     return(
-        <p className='noBullet'>{includesText}</p>           
+        <p id='noBullet'>{includesText}</p>           
         
     )
 })}
