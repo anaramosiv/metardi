@@ -9,12 +9,13 @@ const CardsProduct = () =>  {
 
     <Container id='CardsProduct'>
         <Row>
+          <h2 className="tCenter">Conoce nuestros productos</h2>
 
       {ProdTittle.map((productos) =>{
           return (
             
                         
-            <Col sm={12} lg={4}>
+            <Col sm={12} md={4}>
             <Card>
             <Card.Img variant="top" src={productos.img}/>
             <Card.Body id='cardsD'>

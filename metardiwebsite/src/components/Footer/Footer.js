@@ -9,7 +9,7 @@ import { Col, Container, Row } from 'react-bootstrap';
 
 const Footer = () => {
   return (
-    <footer>
+    <footer id="contact">
         <h4>Contáctanos</h4>
         <Container>
             <Row id ='footerlogos'>

@@ -32,7 +32,7 @@ const MultiCarrousel = () => {
     
   return (
     <section id='multiSlide'>
-      <h3> Nuestros Trabajos</h3>
+      <h2 className="tCenter"> Nuestros Trabajos</h2>
       <Container>
       
           <Carousel responsive={responsive}  infinite={true}>

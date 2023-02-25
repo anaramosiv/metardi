@@ -8,6 +8,7 @@ import * as bootstrap from 'bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Quienes from 'components/Quienes/Quienes';
 import Footer from 'components/Footer/Footer';
+import WhatsappLogo from 'components/WaLogo/WhatsappLogo';
 
 
 
@@ -20,6 +21,7 @@ function App() {
       <CardsProduct/>
       <Quienes/>
       <MultiCarrousel/>
+      <WhatsappLogo/>
       <Footer/>
    
       

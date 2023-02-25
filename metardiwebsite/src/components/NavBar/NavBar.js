@@ -5,7 +5,6 @@ import Col from 'react-bootstrap/Col';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import Logo from 'image/Logo.png'
-import NavDropdown from 'react-bootstrap/NavDropdown';
 import Cotizar from 'components/Buttons/Cotizar';
 
 function NavBar() {
@@ -35,12 +34,12 @@ function NavBar() {
         <Navbar.Collapse id="responsive-navbar-nav">
           
      
-          <Nav className="mx-auto d-flex justify-content-around local w-100" id="navElements">
-            <Nav.Link href="#deets">Inicio</Nav.Link>
-            <Nav.Link href="#deets">Quiénes Somos</Nav.Link>
-            <Nav.Link href="#deets">Productos</Nav.Link>
-            <Nav.Link href="#deets">Experiencia</Nav.Link>
-            <Nav.Link href="#deets">Contacto</Nav.Link>
+          <Nav className="mx-auto d-flex justify-content-around local w-100 font500" id="navElements">
+            <Nav.Link href="#home">Inicio</Nav.Link>
+            <Nav.Link href="#quienesSomos">Quiénes Somos</Nav.Link>
+            <Nav.Link href="#CardsProduct">Productos</Nav.Link>
+            <Nav.Link href="#multiSlide">Experiencia</Nav.Link>
+            <Nav.Link href="#contact">Contacto</Nav.Link>
             
           </Nav>
         
