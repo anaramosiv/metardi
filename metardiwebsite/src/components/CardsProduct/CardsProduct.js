@@ -16,7 +16,7 @@ const CardsProduct = () =>  {
             
                         
             <Col sm={12} md={4}>
-            <Card>
+            <Card className="mainProducts">
             <Card.Img variant="top" src={productos.img}/>
             <Card.Body id='cardsD'>
               <Card.Title className='toUpper'>{productos.tittle}</Card.Title>

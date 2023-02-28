@@ -25,7 +25,7 @@ const Quienes = () => {
             </Col>
         </Row>
         <Row>
-            <Col sm={12} lg={6}>
+            <Col sm={12} lg={6} className="centerOnMobile">
             <img
                 src={dots}
                 alt = '...'
@@ -39,14 +39,20 @@ const Quienes = () => {
                 <h2>¿Qué hacemos?</h2>   
                 <p className="centerOnMobile">Trabajamos en productos publicitarios textiles como recursos para el crecimiento de una marca y su posicionamiento. Aportando nuestro conocimiento y siendo conscientes de la relevancia que implica satisfacer las necesidades y expectativas de nuestros clientes.</p>
             </Col>
-            <Col className='hideOnMobile'>
+            <Col className='hideOnMobile' id="whatDo">
      
                 <img
                 src={about2}
                 alt = '...'
                 className="img-fluid"/>
+                <img
+                src={dots}
+                alt = '...'
+                className="img-fluid"
+                />               
             </Col>
       </Row>
+ 
     </Container>
     </section>
   )

@@ -5,7 +5,7 @@ const Thumbs = ({indice, primaryImage, setPrimaryImage}) => {
     const {id, tittle, alternativeText, description, thumbnails, applicationsInfo, moreInfo, sizeInfo} = DataProductsList[indice-1]
 
   return (
-    <div className= 'd-flex flex-lg-column justify-content-sm-center'>
+    <div className= 'd-flex flex-lg-column justify-content-xs-center pb-3 mb-lg-0'>
         {thumbnails.map((miniatura)=>{
             return(
                 <>
@@ -15,7 +15,7 @@ const Thumbs = ({indice, primaryImage, setPrimaryImage}) => {
                 src={miniatura}
                 alt="..."
                 width= {60}  
-                className=' p-sm-2'              
+                className='mx-auto my-lg-2 shadowBoxesThumbs borderThumbs'              
                 />
                  {console.log(miniatura)}
                 

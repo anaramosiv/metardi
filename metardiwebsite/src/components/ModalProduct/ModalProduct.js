@@ -31,22 +31,24 @@ function ModalProducts(props) {
       <Modal.Body>
             <div>
                 <Row className='bgGr'  id='prods'>
-                    <Col md={2} lg={1}><Thumbs indice={props.id} primaryImage ={primaryImage} setPrimaryImage ={setPrimaryImage}/></Col>
-                    <Col md={4} lg={5}><ImgGrande indice = {props.id} primaryImage ={primaryImage} setPrimaryImage ={setPrimaryImage}/></Col>
-                    <Col md={12} lg={6}>
+                    <Col xs={12} sm={12} md={2} lg={2}><Thumbs indice={props.id} primaryImage ={primaryImage} setPrimaryImage ={setPrimaryImage}/></Col>
+                    <Col xs={12} md={12}  lg={5}><ImgGrande indice = {props.id} primaryImage ={primaryImage} setPrimaryImage ={setPrimaryImage}/></Col>
+                    <Col xs={12} md={12}  lg={5}>
                     <ProductText  indice={props.id}/> 
+                    <div className="cotizarCards">
                     <Cotizar/>
+                    </div>
                     </Col>
                 </Row>
                 <Row id='details'>
-                    <Col md={12} lg={4}><Aplicaciones indice={props.id}/> </Col>
-                    <Col md={12} lg={4}><Includes indice={props.id}/></Col>
-                    <Col md={12} lg={4}><Sizes indice={props.id}/></Col>
+                    <Col sm={12} lg={4}><Aplicaciones indice={props.id}/> </Col>
+                    <Col sm={12} lg={4}><Includes indice={props.id}/></Col>
+                    <Col sm={12} lg={4}><Sizes indice={props.id}/></Col>
                 </Row>
             </div>
       </Modal.Body>
       <Modal.Footer>
-        <Button onClick={props.onHide}>Close</Button>
+        <Button id="closeButton" onClick={props.onHide}>Cerrar</Button>
       </Modal.Footer>
 
     </Modal>

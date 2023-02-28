@@ -6,7 +6,7 @@ import banderas1 from 'image/banderas1.jpg';
 import banderas2 from 'image/banderas2.jpg';
 import banderas3 from 'image/banderas3.jpg';
 import banderas4 from 'image/banderas4.jpg';
-import totem1 from 'image/totem1.png';
+import totem1 from 'image/totem1.jpg';
 import totem2 from 'image/totem2.png';
 import totem3 from 'image/totem3.png';
 import totem4 from 'image/totem4.png';

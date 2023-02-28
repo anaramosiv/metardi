@@ -10,29 +10,52 @@ import { Col, Container, Row } from 'react-bootstrap';
 const Footer = () => {
   return (
     <footer id="contact">
-        <h4>Contáctanos</h4>
-        <Container>
+   
+        <Container  fluid className="blackFooter">
+        <h2>Contáctanos</h2>
             <Row id ='footerlogos'>
                 
                 <Col>
-                    <img 
+                    <a href="https://wa.me/5492615660798" target="_blank" rel="noreferrer">
+                        <img 
                         src={whatsapp}
                         alt="Whatsapp logo"/>
-                    <img 
+                    </a>
+                    <a href="https://www.instagram.com/metardimetardi/" target="_blank" rel="noreferrer">
+                        <img 
                         src={instagram}
-                        alt="Instagram logo"/>
-                    <img 
+                        alt="Instagram"/>
+                    </a>
+                    <a href="https://www.facebook.com/people/Metardi-Metardi/100010294207431/?mibextid=LQQJ4d" target="_blank" rel="noreferrer">
+                        <img 
                         src={facebook}
-                        alt="Facebook logo"/>
+                        alt="Facebook"/>
+                    </a>
+            
                 </Col>
-               
             </Row>
             <Row>
             <p>Llámanos o escribenos en cualquier momento, con gusto te ayudaremos.</p>
-            <p>metardisrl@gmail.com</p>
-            <p>2615660798</p>
+            <Col className="logosF">
+            <a href="mailto:metardisrl@gmail.com">
+            <img src={mail}
+                alt="mail"/>metardisrl@gmail.com</a>
+            </Col>
+            </Row>
+            <Row className="pb-3">
+            <Col className="logosF">
+            <a href="https://wa.me/5492615660798">
+            <img src={phone}
+                alt="Teléfono"/>2615660798</a>
+            </Col>
+            </Row>
+            <Row fluid className="pinkFooter" >
+                <Col className ="Legal" >
+                <p>@2023 Metardi - Todos los derechos reservados. Diseñado por TeamsCoderHouse</p>
+                </Col>
             </Row>
         </Container>
+     
     </footer>
   )
 }

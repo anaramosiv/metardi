@@ -3,7 +3,7 @@ import React from 'react'
 const Cotizar = () => {
   return (
     <>
-     <button id='bCotizar'> Solicita tu cotización </button>
+    <a href="https://wa.me/5492615660798" className="bCotizar">Solicita tu cotización</a>
     </>
   )
 }

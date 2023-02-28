@@ -1,6 +1,7 @@
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
+import mail from 'image/mail.svg';
 
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
@@ -12,21 +13,25 @@ function NavBar() {
     <Navbar collapseOnSelect expand="lg"  sticky="top" className="py-0 test">
       <Container  fluid id='bloque' className="position-relative g-0">
         <div className='local bgBrand  local w-100' >
-          <Row>
-            <Col >
-        <Navbar.Brand href="#home" id ="navBrand">
-        <img 
-              alt=""
-              src={Logo}           
-              className="d-inline-block align-top" 
-            />
-        </Navbar.Brand>
-        </Col>
-        <Col className= 'd-flex justify-content-lg-center justify-content-sm-start'>
-        <Cotizar />
-    
-       
-        </Col>
+          <Row id="logoButton">
+            <Col xs={4}>
+              <Navbar.Brand href="#home" id ="navBrand">
+                <img 
+                alt=""
+                src={Logo}           
+                className="d-inline-block align-top" 
+                   />
+             </Navbar.Brand>
+            </Col>
+            <Col xs={6} lg={7}  className= 'd-flex justify-content-lg-end justify-content-sm-start align-items-center'> 
+            <div className="logosF hideOnMobile me-3">
+                <a href="mailto:metardisrl@gmail.com">
+                <img src={mail}
+                alt="mail"/>metardisrl@gmail.com</a>
+            </div>
+                <Cotizar/>   
+            </Col>
+            
         </Row>
         </div>
     

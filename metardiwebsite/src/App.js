@@ -12,6 +12,7 @@ import WhatsappLogo from 'components/WaLogo/WhatsappLogo';
 
 
 
+
 function App() {
   return (
     <div className="App">  
@@ -23,6 +24,7 @@ function App() {
       <MultiCarrousel/>
       <WhatsappLogo/>
       <Footer/>
+   
    
       
     </div>

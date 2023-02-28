@@ -34,7 +34,7 @@ function Header() {
   
     </Carousel>
     <div className="callToAction">
-    <button className="cotizar2"> Solicita tu cotización </button>
+    <a href='https://wa.me/5492615660798' className="cotizar2"> Solicita tu cotización</a>
     </div>
 
     </Container>
@@ -61,7 +61,7 @@ function Header() {
    
      </Carousel>
      <div className="callToActionMobile">
-     <button className="cotizarMobile"> Solicita tu cotización </button>
+      <a href='https://wa.me/5492615660798' className="cotizarMobile"> Solicita tu cotización</a>
      </div>
      </Container>
     
